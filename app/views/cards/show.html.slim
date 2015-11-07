@@ -1,0 +1,45 @@
+p#notice = notice
+
+p
+  strong Name:
+  = @card.name
+p
+  strong Description:
+  = @card.description
+p
+  strong Catalog:
+  = @card.catalog
+p
+  strong Card number:
+  = @card.card_number
+p
+  strong Strain:
+  = @card.strain_id
+p
+  strong Rarity:
+  = @card.rarity_id
+p
+  strong Spawn area:
+  = @card.spawn_area_id
+p
+  strong Shape:
+  = @card.shape_id
+p
+  strong Max level:
+  = @card.max_level
+p
+  strong Redeathable:
+  = @card.redeathable
+p
+  strong Tradable:
+  = @card.tradable
+p
+  strong Extinct:
+  = @card.extinct
+p
+  strong Locked:
+  = @card.locked
+
+= link_to 'Edit', edit_card_path(@card)
+'|
+= link_to 'Back', cards_path

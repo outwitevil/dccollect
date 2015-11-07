@@ -1,0 +1,20 @@
+= simple_form_for(@card) do |f|
+  = f.error_notification
+
+  .form-inputs
+    = f.input :name
+    = f.input :description
+    = f.input :catalog
+    = f.input :card_number
+    = f.input :strain_id
+    = f.input :rarity_id
+    = f.input :spawn_area_id
+    = f.input :shape_id
+    = f.input :max_level
+    = f.input :redeathable
+    = f.input :tradable
+    = f.input :extinct
+    = f.input :locked
+
+  .form-actions
+    = f.button :submit

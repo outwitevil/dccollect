@@ -1,0 +1,31 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name: MyString
+  description: MyText
+  catalog: MyString
+  card_number: MyText
+  strain_id: 1
+  rarity_id: 1
+  spawn_area_id: 1
+  shape_id: 1
+  max_level: 1
+  redeathable: false
+  tradable: false
+  extinct: false
+  locked: false
+
+two:
+  name: MyString
+  description: MyText
+  catalog: MyString
+  card_number: MyText
+  strain_id: 1
+  rarity_id: 1
+  spawn_area_id: 1
+  shape_id: 1
+  max_level: 1
+  redeathable: false
+  tradable: false
+  extinct: false
+  locked: false

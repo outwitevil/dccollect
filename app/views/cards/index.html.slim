@@ -1,0 +1,45 @@
+h1 Listing cards
+
+table
+  thead
+    tr
+      th Name
+      th Description
+      th Catalog
+      th Card number
+      th Strain
+      th Rarity
+      th Spawn area
+      th Shape
+      th Max level
+      th Redeathable
+      th Tradable
+      th Extinct
+      th Locked
+      th
+      th
+      th
+
+  tbody
+    - @cards.each do |card|
+      tr
+        td = card.name
+        td = card.description
+        td = card.catalog
+        td = card.card_number
+        td = card.strain_id
+        td = card.rarity_id
+        td = card.spawn_area_id
+        td = card.shape_id
+        td = card.max_level
+        td = card.redeathable
+        td = card.tradable
+        td = card.extinct
+        td = card.locked
+        td = link_to 'Show', card
+        td = link_to 'Edit', edit_card_path(card)
+        td = link_to 'Destroy', card, data: {:confirm => 'Are you sure?'}, :method => :delete
+
+br
+
+= link_to 'New Card', new_card_path

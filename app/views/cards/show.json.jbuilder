@@ -1,0 +1,1 @@
+json.extract! @card, :id, :name, :description, :catalog, :card_number, :strain_id, :rarity_id, :spawn_area_id, :shape_id, :max_level, :redeathable, :tradable, :extinct, :locked, :created_at, :updated_at
